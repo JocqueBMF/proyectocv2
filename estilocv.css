@@ -1,0 +1,64 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(159, 172, 113);
+    }
+  }
+:root {
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3b38c;
+    --nord15: #b48ead;
+    font-family: 'Kanit', sans-serif;
+    }
+
+    * {outline: 1px solid red}
+
+h1{ 
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 430px;
+    padding-top: 15px;
+}
+
+body {
+    font-family:var(--font);
+    
+}
+header, section, article, aside {
+    width: 960px;
+    margin: auto;
+}
+ul{
+    list-style-type:circle;
+}
+header{
+    display: flex;
+}
+section{
+    display: flex;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 10px;
+    margin-right: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
