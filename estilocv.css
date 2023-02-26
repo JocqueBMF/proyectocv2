@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
     body {
-      background-color: rgb(211, 233, 132);
+      background-color: rgb(126, 139, 79);
     }
   }
 :root {
@@ -24,10 +24,8 @@
     
     }
 
-    * {outline: 1px solid red}
-
+   * {outline: 1px solid crimson}
 h1{ 
-    border: 15px groove var(--nord15)
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -69,6 +67,7 @@ img {
     margin-top: 10px;
 }
 h2, h3 {
+    margin-left: 20px;
     margin-top: 15px;}
 
 h5 {font-family: Arial, Helvetica, sans-serif;
@@ -77,3 +76,4 @@ margin-top: auto;
 margin-right: auto;
 margin-bottom: auto;
 margin-left: auto;}
+
