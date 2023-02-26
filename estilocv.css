@@ -27,6 +27,7 @@
     * {outline: 1px solid red}
 
 h1{ 
+    border: 15px groove var(--nord15)
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -38,6 +39,7 @@ h1{
 }
 
 body {
+    border: var(--nord14);
     font-family:var(--font);
     
 }
