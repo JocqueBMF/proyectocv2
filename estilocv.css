@@ -25,8 +25,8 @@ body  {
     
     }
 
-   /* * {outline: 1px solid crimson}**/
-   
+  /* *{outline: 1px solid crimson}**/
+
 
 body {
     border: var(--nord14);
@@ -52,18 +52,13 @@ section, article {
         }
 
 
-/*aside {
-    width: 600px;
-    height: 600px;
-    padding-bottom: auto;
-    padding-right: auto;
-    padding-top: auto;
-    padding-left: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-left: auto;
-}**/
+aside {
+    background-color: rgba(152, 251, 152, 0.404);
+    width: 1000px;
+    height: 425px;
+    margin: auto;
+
+}
 
 ul{
     
@@ -84,6 +79,7 @@ header{
     width: 960px;
     margin: auto;
     display: flex;
+
 }
 section{
     display: flex;
@@ -92,7 +88,7 @@ section{
 .read-more-btn {
     background-color: #4caf50;
     border: none;
-    border-radius: 40px;
+    border-radius: auto;
     color: white;
     padding: 15px 32px;
     font-size: 1.2em;
@@ -124,8 +120,8 @@ section{
 }
 
 img {
-    width: 200px;
-    height: 300px;
+    width: 220px;
+    height: 340px;
     margin-bottom: 10px;
     margin-right: 16px;
     margin-left: 10px;
@@ -183,6 +179,8 @@ margin-top: auto;
 margin-right: auto;
 margin-bottom: auto;
 margin-left: 40px;}
+
+
 
 footer {
     background-color: rgba(128, 128, 128, 50%);
