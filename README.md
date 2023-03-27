@@ -1,3 +1,137 @@
-# proyectocv2
-Proyecto curriculum vitae en html, css y js
- 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Curriculum vitae, CV, Nicolas Toledo, Toledo Nicolas, Informacion sobre cv, desarrollo web cv"/>
+    <meta name="Descripción" content="Maquetado de curriculum vitae, con información relativamente falsa">   
+    <meta name="author" content="Pedro Nicolas Toledo Ledesma"> 
+    <meta name="copyright" content="Pedro Nicolas Toledo Ledesma">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="estilocv.css">
+    <link rel="icon" type="image/CV icon.ico" href="/icon/cvicon.ico">
+</head>
+
+<body>
+    <header>
+        
+        <img src="NICO - sandro-137.jpg"  alt="imagen en blanco y negro de un hombre sonriendo para foto curriculum vitae">
+        <div><h1> Pedro Nicolas Toledo Ledesma</h1>
+            <h2>Programador y desarrollador web</h2>
+                <ul id="datos"> 
+                    <li>Pais: Argentina</li>
+                    <li>Provincia: Buenos Aires</li>
+                    <li>Localidad: Monte Grande</li>
+                    <li>Direccion: Laprida n°2092</li>
+                    <li>CP: 1838</li>
+                    <li>Tel: 011-5555-5555</li>
+                    <li>Email: nicolas.toledo.1987@hotmail.com</li><br>
+                <div>
+                    <a class="boton" href="https://www.instagram.com/carpe.noctem.bmf/" target="_blank"> Instagram</a>
+                    <a class="boton" href="https://www.facebook.com/joc.joc.8/" target="_blank">Facebook</a>
+                </div>
+                </ul> 
+            </div>
+    </header>
+        <div class="conteiner"> 
+            <span class="hide" id="hideText">
+            <section>
+                <article> <!-- Realmente no tengo informacion profesional de ningun tipo relacionado a al programacion, ni diseño web
+                por lo que para completar busque en google informacion de otra persona-->
+                    <h2>Informacion Profesional</h2>
+                    <H3>Carvajal</H3>
+                    <ul>
+                        <div><h4>Gerente de Producto, Transformación Digital</h4>
+                            <b>Desde: </b><time datetime="2020-08-24"> Agosto 2022</time> <b>Hasta:</b><time datetime="Actual"></time> Actual</p>
+                        </div> 
+                            <li id="cuadrado">
+                            <p>Diseño de procesos de desarrollo de software, disminuyendo en 20% el tiempo de desarrollo</p>
+                            </li>
+                            <li id="cuadrado">
+                            <p>Manejo de 5 reportes directos, mantenido satisfacion de empleados por encima del 80%.</p>
+                            </li>
+                            <li id="cuadrado">
+                            <p>Remplazo de 4 sistemas de datos obnsoletos, ahorrando $100 millones por año.</p>
+                        </li>
+                    </ul>                          
+                <h3>Compañia Nacional de Chocolates</h3>
+                    <ul>
+                        <h4>Ingeniero de desarrollo de software</h4>
+                        <b>Desde:</b>
+                                <time datetime="2015-05-16"> Junio 2017 <b>Hasta:</b><time datetime="2020-08-12"></time> Agosto 2020</time>
+                        <li id="cuadrado">
+                           <p>Desarrollo de aplicación de móvil para servicio al cliente, aumentando satisfacción de 3 a 4
+                            estrellas en solo 6 meses.</p></li>
+                        <li id="cuadrado">
+                            <p> Ascenso de ingeniero junior a senior en 12 meses, por resultados sobresalientes de trabajo. </p></li>
+                    </ul>
+                <h3>Manpower</h3>
+                    <ul>
+                        <h4>Ingeniero de soporte primera linea.</h4> 
+                            <b>Desde:</b>
+                                <time datetime="2015-05-16"> Mayo 2015<b>Hasta:</b><time datetime="2017-04-15"></time> Abril 2017</time>
+                        <Li id="cuadrado"><p> Atender un promedio de 20 casos por día, con satisfacción de usuarios de 90%.</p></Li>
+                        <li id="cuadrado"><p>Realizar 6 talleres d actualización de tecnología para colegas.</p></li>
+                    </ul>
+            </article>    
+        </section>
+        <section>
+            <article>
+                <h2>Informacion academica</h2>
+                <H3>Universidad de Lomas de Zamora</H3>
+                        <h5>Maestria en Ciencias de los Datos Analitica</h5>
+                <ul id="cuadrado">    
+                            <li ><p>Promedio academico: 4.8/5 </p></li>
+                            <li ><p>Descripcion de Tesis o Pasantía.</p></li>
+                </ul>
+                    <h3>Universidad de Buenos Aires</h3>
+                        <h5><p>Ingeniería en Sitemas</p></h5>
+                      <ul id="cuadrado">      
+                        <li><p>Promedio Academico: 4.5/5. Puntaje Saber Pro 270/300</p></li>
+                            <li><p>Descripcíon de Tesis o Pasantía</p></li>
+                </ul>   
+            </article> 
+            <aside>
+                <h2>Hobbies e Intereses</h2>
+                        <ul id="cuadrado">
+                            <li><p><strong>Musica:</strong> Rock y todos su subgeneros.</p></li>
+                            <li><p></p><strong>Deportes:</strong>Futbol, boxeo y ciclismo. </p></li>
+                            <li><p><strong>Viajar:</strong> De preferencia lugares con montaña.</p></li>
+                            
+                        </ul>
+                        <p> </p>
+            
+            </aside>
+        </section>
+            
+        
+    </span>
+    <button class="read-more-btn" id="hidetext_btn"> Informacion academica - informacion profesional </button>
+    </div>
+    <footer>
+        
+        <img id="compu" src="buen_cv_computrabajo.jpg" alt="una imagen de manos, teclado y pantalla">
+        
+        <div class="footer">
+            <div class=""></div>
+        </div>
+    </footer>
+     <script src="JS\javascript.js"></script>
+</body>
+
+</html>
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
